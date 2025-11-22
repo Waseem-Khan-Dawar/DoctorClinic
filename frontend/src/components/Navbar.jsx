@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
   const navigate = useNavigate();
+  // eslint-disable-next-line no-unused-vars
   const [showMenu, setShowMenu] = useState(false);
   const [token, setToken] = useState(true);
   return (
